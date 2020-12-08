@@ -40,7 +40,7 @@ public class Student implements Comparable<Student>, Serializable {
 
     @Override
     public String toString() {
-        return "Student [city=" + city + ", id=" + id + ", name=" + name + "]";
+        return "Student [name=" + name + ", id=" + id + ", city=" + city + "]";
     }
 
     @Override
